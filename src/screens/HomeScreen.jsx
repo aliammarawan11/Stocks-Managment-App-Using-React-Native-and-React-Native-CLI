@@ -3,6 +3,17 @@ import AllItems from './AllItems';
 import CreateScreen from './CreateScreen';
 import {useState} from 'react';
 
+const data=[
+
+    { id:1, name : "wheat", stock : 5, unit: "kg" },
+    { id:2, name : "Rice", stock : 15, unit: "kg" },
+    { id:3, name : "Basmati Rice", stock : 25, unit: "kg" },
+    { id:4, name : "Pulse", stock : 50, unit: "kg" },
+    { id:5, name : "Corn", stock : 19, unit: "kg" },
+   
+]
+
+
 const HomeScreen = () => {
   const [view, setview] = useState(0);
 
@@ -13,7 +24,7 @@ const HomeScreen = () => {
         <Pressable
           style={[
             styles.button,
-            view === 0 ? {backgroundColor: 'green'} : null,
+            view === 0 ? {backgroundColor: '#72C37AFF'} : null,
           ]}
           onPress={() => setview(0)}>
           <Text style={[styles.btnText, view === 0 ? {color: 'white'} : null]}>
@@ -23,7 +34,7 @@ const HomeScreen = () => {
         <Pressable
           style={[
             styles.button,
-            view === 1 ? {backgroundColor: 'green'} : null,
+            view === 1 ? {backgroundColor: '#72C37AFF'} : null,
           ]}
           onPress={() => setview(1)}>
           <Text style={[styles.btnText, view === 1 ? {color: 'white'} : null]}>
@@ -33,7 +44,7 @@ const HomeScreen = () => {
         <Pressable
           style={[
             styles.button,
-            view === 2 ? {backgroundColor: 'green'} : null,
+            view === 2 ? {backgroundColor: '#72C37AFF'} : null,
           ]}
           onPress={() => setview(2)}>
           <Text style={[styles.btnText, view === 2 ? {color: 'white'} : null]}>
@@ -42,7 +53,7 @@ const HomeScreen = () => {
         </Pressable>
       </View>
 
-      {view === 0 && <AllItems />}
+      {view === 0 && <AllItems data = {data}/>}
       {view === 1 && <AllItems />}
       {view === 2 && <CreateScreen />}
     </View>
@@ -73,7 +84,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     borderRadius: 50,
     borderWidth: 0.8,
-    borderColor: 'green',
+    borderColor: '#72C37AFF',
   },
   btnText: {
     color: 'green',
