@@ -1,6 +1,6 @@
 #  Stocks Management App  
 
-A simple stock management application built with **React Native** and **React Native CLI** to track inventory efficiently. This project was created as part of my React Native learning journey. 🚀  
+A simple stock management application built with **React Native** and **React Native CLI** to track inventory efficiently. This project was created as part of my React Native learning journey.  
 
 ---
 
@@ -14,7 +14,7 @@ A simple stock management application built with **React Native** and **React Na
 
 ---
 
-## 🛠 Tech Stack  
+##  Tech Stack  
 
 - **Frontend:** React Native (with React Native CLI)  
 - **State Management:** useState  
