@@ -1,20 +1,20 @@
-# 📦 Stocks Management App  
+#  Stocks Management App  
 
 A simple stock management application built with **React Native** and **React Native CLI** to track inventory efficiently. This project was created as part of my React Native learning journey. 🚀  
 
 ---
 
-## ✨ Features  
+##  Features  
 
-✅ View all available stock items  
-✅ Filter items with low stock  
-✅ Add, edit, and delete stock items  
-✅ User-friendly UI with smooth navigation  
-✅ Input validation for stock quantity and item names  
+ View all available stock items  
+ Filter items with low stock  
+ Add, edit, and delete stock items  
+ User-friendly UI with smooth navigation  
+ Input validation for stock quantity and item names  
 
 ---
 
-## 🛠️ Tech Stack  
+## 🛠 Tech Stack  
 
 - **Frontend:** React Native (with React Native CLI)  
 - **State Management:** useState  
@@ -23,9 +23,9 @@ A simple stock management application built with **React Native** and **React Na
 
 ---
 
-## 🚀 Getting Started  
+##  Getting Started  
 
-### ✅ Prerequisites  
+###  Prerequisites  
 
 Make sure you have the following installed:  
 
@@ -36,26 +36,26 @@ Make sure you have the following installed:
 
 ---
 
-### 📥 Installation & Running the App  
+###  Installation & Running the App  
 
-1️⃣ Clone the repository:  
-2️⃣ Navigate to the project directory:
+1️ Clone the repository:  
+2️ Navigate to the project directory:
 
-3️⃣ Install dependencies:
+3️ Install dependencies:
 ```sh
 npm install
 ```
-4️⃣ Start the Metro Bundler :
+4️ Start the Metro Bundler :
 ```sh
 npx react-native start
 ```
-5️⃣ Run the app on an Android Emulator or Physical Device:
+5️ Run the app on an Android Emulator or Physical Device:
 ```sh
 npx react-native run-android
 ```
 (Make sure an emulator is running or a device is connected)
 
-6️⃣ Run the app on an iOS Simulator:
+6️ Run the app on an iOS Simulator:
 ```sh
 npx react-native run-ios
 ```
